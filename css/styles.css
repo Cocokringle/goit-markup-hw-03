@@ -176,9 +176,6 @@ p {
 .main-nav {
   display: flex;
   align-items: center;
-}
-
-.nav-item {
   padding: 24px 0 24px;
 }
 
