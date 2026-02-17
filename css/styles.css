@@ -178,7 +178,7 @@ p {
   align-items: center;
 }
 
-.nav-list {
+.nav-item {
   padding: 24px 0 24px;
 }
 
@@ -264,6 +264,10 @@ p {
   background-color: var(--color-brand-pressed);
 }
 
+.features-subtitle {
+  margin-bottom: 8px;
+}
+
 .features-text {
   color: var(--color-text);
 }
@@ -277,7 +281,7 @@ p {
 .features-item {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .portfolio-category {
